@@ -12,3 +12,10 @@ $(document).ready(function() {
     });
 
 });
+//asthetic
+$("button").mouseenter(function(){
+    $("button").css("border-color", "yellow");
+  });
+  $("button").mouseleave(function(){
+    $("button").css("border-color", "white");
+  });
