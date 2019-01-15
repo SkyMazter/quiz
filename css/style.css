@@ -87,6 +87,10 @@ button{
     font-family: 'Titillium Web', sans-serif;
     
 }
+button:hover{
+    border-color:yellow;
+}
+
 body{
     
     margin-left:20px;
